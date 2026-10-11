@@ -1,0 +1,59 @@
+indiagov-sim (simulated PM-KUSUM RMS units, JJM gateways and RTUs, a state-to-centre API and an eJalShakti portal, in Go)
+Copyright 2026 Abhinav Gautam
+
+This module is licensed under the Apache License, Version 2.0 (LICENSE).
+
+The code was written for SigmaM2M, a oneM2M platform, from the public
+documents listed in PROVENANCE.md. It contains no code from other
+projects. The source files that come from SigmaM2M carry no per-file
+copyright header (the convention of the code they come from); the
+copyright line above covers them. Files added for this module carry
+"Copyright 2026 Abhinav Gautam" and "SPDX-License-Identifier:
+Apache-2.0".
+
+Names
+-----
+
+PM-KUSUM, Jal Jeevan Mission (JJM) and eJalShakti are names of schemes
+and services of the Government of India (the Ministry of New and
+Renewable Energy and the Ministry of Jal Shakti, Department of Drinking
+Water and Sanitation). KPMG, MAHADISCOM, SECI, OREDA, EESL and NIC are named
+only as authors or publishers of the documents followed. The names are used only
+to say which devices and services this module simulates. This module
+is not made, endorsed or supported by any ministry, agency, utility or
+company, and is not affiliated with them. The simulated portal is a
+test double on a local address; it does not stand for the real
+service.
+
+Government documents
+--------------------
+
+No text of the documents is reproduced, and no sample message printed in
+them is included. The sample messages in pmkusum/sim/samples.go,
+jjm/sim/jjmsim.go and jjm/sim/ejalshakti.go are our own: built to the
+layouts the documents describe (keywords, members and element names are
+interface facts), with made-up IMEIs, IDs, values, hosts and
+credentials. The documents are not redistributed.
+
+
+Dependencies
+------------
+
+- github.com/cB-Sigma/indiagov (Apache-2.0, Copyright 2026 Abhinav
+  Gautam): the readers, writers and clients the simulators are built on.
+- github.com/eclipse/paho.golang (Eclipse Public License 2.0 or Eclipse
+  Distribution License 1.0, the latter a BSD-3-Clause licence, used under
+  EDL-1.0; Copyright the Eclipse Paho contributors), through indiagov.
+- github.com/gorilla/websocket (BSD-2-Clause) and golang.org/x/net
+  (BSD-3-Clause), through paho.golang.
+- github.com/mochi-mqtt/server/v2 (MIT, Copyright mochi-mqtt and
+  contributors), github.com/rs/xid (MIT) and gopkg.in/yaml.v3 (MIT and
+  Apache-2.0): the embedded broker of the tests only
+  (internal/brokertest).
+- The Go standard library (BSD-3-Clause, Copyright The Go Authors).
+
+Test data
+---------
+
+Every IMEI, gid, device ID, village ID, gateway ID, key, password, host name and value in this module is a
+made-up demo value.
