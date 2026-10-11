@@ -37,7 +37,7 @@ F-488 and F-2706 in SigmaM2M's register; see below).
 
 | Area (files) | Followed |
 |---|---|
-| RMS (pmkusum/sim/sim.go, samples.go) | "RMS Communication and Security Architecture": PM KUSUM SEDM Platform (14/07/2020, published by MAHADISCOM as Annexure-I) and PM KUSUM National Portal (26/09/2022, published by OREDA as Annexure-E), sections 2 to 6 and annexures 1 to 8; field forms from public firmware (topic levels, lower-case keywords) |
+| RMS (pmkusum/sim/sim.go, samples.go) | "RMS Communication and Security Architecture": PM KUSUM SEDM Platform (14/07/2020, published by MAHADISCOM as Annexure-H in a 2021 upload and as Annexure-I in a 2022 upload) and PM KUSUM National Portal (26/09/2022, published by OREDA as Annexure-E), sections 2 to 6 and annexures 1 to 8; field forms from public firmware (topic levels, lower-case keywords) |
 | Vendor-style RMS (pmkusum/sim/vendor.go) | none (our own shape) |
 | Gateway, HTTP device, central API (jjm/sim/jjmsim.go) | JJM Technical/Expert Committee report (March 2021), section 5(f) and annexure 9(c) |
 | Scheme RTU (jjm/sim/rtu.go) | none (our own shape) |

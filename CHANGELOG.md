@@ -3,6 +3,11 @@
 All notable changes to this module. Versions follow semantic versioning;
 before v1 the API may change in minor versions.
 
+## v0.1.1 (2026-10-12)
+
+- Documentation: name both public copies of the 2020 document
+  (MAHADISCOM Annexure-H, 2021 upload, and Annexure-I, 2022 upload).
+
 ## v0.1.0 (2026-10-11)
 
 First release as a module of its own, split from the indiagov module.

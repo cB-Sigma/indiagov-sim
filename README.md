@@ -6,7 +6,8 @@ Simulated PM-KUSUM RMS units, Jal Jeevan Mission gateways and RTUs, a state-to-c
 
 The RMS speaks the message profile of "RMS Communication and Security
 Architecture" (the PM KUSUM SEDM Platform version of 14/07/2020,
-published by MAHADISCOM as Annexure-I, and the PM KUSUM National Portal
+published by MAHADISCOM as Annexure-H in a 2021 upload and as
+Annexure-I in a 2022 upload, and the PM KUSUM National Portal
 version of 26/09/2022, published by OREDA as Annexure-E) over MQTT: it
 publishes sample messages of our own in every annexure layout (or
 messages written with the library),

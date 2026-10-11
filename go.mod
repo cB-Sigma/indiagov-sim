@@ -3,7 +3,7 @@ module github.com/cB-Sigma/indiagov-sim
 go 1.24.0
 
 require (
-	github.com/cB-Sigma/indiagov v0.1.0
+	github.com/cB-Sigma/indiagov v0.1.1
 	github.com/mochi-mqtt/server/v2 v2.7.9
 )
 

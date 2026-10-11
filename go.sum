@@ -1,5 +1,5 @@
-github.com/cB-Sigma/indiagov v0.1.0 h1:2TIcT5ZWukrE0KL9ZDNiiRGBnpAOpvSuKDt/na+f06o=
-github.com/cB-Sigma/indiagov v0.1.0/go.mod h1:Vj07/37ip0dPUHM+7DZ/VGI7akbeSfq6hfS5VVNQcFM=
+github.com/cB-Sigma/indiagov v0.1.1 h1:blC3Om0XSs/qr7EGia0mDqVQ1ZTLSFF5rtiZ0LPAg9A=
+github.com/cB-Sigma/indiagov v0.1.1/go.mod h1:Vj07/37ip0dPUHM+7DZ/VGI7akbeSfq6hfS5VVNQcFM=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/eclipse/paho.golang v0.23.0 h1:KHgl2wz6EJo7cMBmkuhpt7C576vP+kpPv7jjvSyR6Mk=
